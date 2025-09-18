@@ -3,7 +3,7 @@ cask "oq" do
   name "oq"
   desc "Terminal OpenAPI Spec viewer"
   homepage "https://github.com/plutov/oq"
-  version "0.0.14"
+  version "0.0.15"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "oq" do
   on_macos do
     on_intel do
       url "https://github.com/plutov/oq/releases/tag/v#{version}"
-      sha256 "958428f44c777330e14abced36c9511240c5dfda418e714196da6be7c237ac1a"
+      sha256 "a1ac7417bac60afc2625a5588029e93e27acf1fde418d81ba6f34dd9260a0d9b"
     end
     on_arm do
       url "https://github.com/plutov/oq/releases/tag/v#{version}"
-      sha256 "1493537d939f58945c7fb52a355eea2f942fcc37dd852cad3a616e060786f914"
+      sha256 "ebe987f56820cbc02924714d16cce23147842e084906c51c35405a36e45e8141"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/plutov/oq/releases/tag/v#{version}"
-      sha256 "0352d7d8735c87e6a7c5ce2790fac8a76d036f641acce2e5bde357bd84426fbc"
+      sha256 "ed1c589c23304a270e900ea32cae1cf0de161251ef34ddede7b691acdca1b6be"
     end
     on_arm do
       url "https://github.com/plutov/oq/releases/tag/v#{version}"
-      sha256 "94acdb2c490aae643409eeeb507590e79825983a6ec045d4e384d9c11d6e822f"
+      sha256 "3ca07dab1a4f3180f44aad12206d7eeba0519091220e496b1d65ad262fdd7f56"
     end
   end
 
