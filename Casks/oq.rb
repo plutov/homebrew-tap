@@ -3,7 +3,7 @@ cask "oq" do
   name "oq"
   desc "Terminal OpenAPI Spec viewer"
   homepage "https://github.com/plutov/oq"
-  version "0.0.19"
+  version "0.0.20"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "oq" do
   on_macos do
     on_intel do
       url "https://github.com/plutov/oq/releases/download/v#{version}/oq_#{version}_darwin_amd64.tar.gz"
-      sha256 "0f5d0e214dc54faa267dd20a7ec7f3604a17afa3edc98c3e106e299197d4efbb"
+      sha256 "a868651b617e6c7b3909ed727a53aeebf00a3c62096af7c4292dc1ed1e2d44b9"
     end
     on_arm do
       url "https://github.com/plutov/oq/releases/download/v#{version}/oq_#{version}_darwin_arm64.tar.gz"
-      sha256 "b4772f2052b4a33635acca76ac6cbc6e8e5c34fbc3dc7959fb263051a5e700d9"
+      sha256 "d21b079687933f358954a94f004089106ca70e59f8ee7b2cb8c3dbe7d617f91e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/plutov/oq/releases/download/v#{version}/oq_#{version}_linux_amd64.tar.gz"
-      sha256 "a0eafb859dd8ec3f819e6d862a71cf478af7c39654300fe141e97df5e4cab568"
+      sha256 "59775755914bb5578c7304f41fccf3f99e39324a6295a92a6b961f91ef62ed9f"
     end
     on_arm do
       url "https://github.com/plutov/oq/releases/download/v#{version}/oq_#{version}_linux_arm64.tar.gz"
-      sha256 "21c4bb2a3fe5639a3589dbcae0a3b996c33279189f5c6ef0bb3b7b09617100fc"
+      sha256 "c695dca1c24745e803d8194cd85cc37bb3ae4ba98fe7f8a00ca82090919db263"
     end
   end
 
